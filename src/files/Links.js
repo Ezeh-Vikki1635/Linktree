@@ -1,6 +1,6 @@
 import "./Links.css";
 
-// ASSETS
+
 import github from "../images/github.png";
 import slack from "../images/slack.png";
 
