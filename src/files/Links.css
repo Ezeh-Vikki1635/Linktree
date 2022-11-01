@@ -28,6 +28,10 @@
   .social-icons {
     margin-top: 2rem;
   }
+  .social-icons img:last-child {
+    margin-top: 10px;
+  
+  }
   .social-icons img {
     width: 24px;
   }
