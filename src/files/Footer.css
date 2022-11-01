@@ -9,11 +9,35 @@
   }
   
   
-
-  
   #footer p {
     color: #667085;
     font-size: 0.85rem;
     padding-top: 0.4rem;
   }
+  @media screen and (max-width:375px){
+
+    footer{
+    margin: 4rem 0 2rem;
+    
+    padding-top: 0.7rem;
+    border-top: 1px solid #eaecf0;
+    
+    justify-content: space-between;
+    align-items: left;
+    }
+  
+}
+@media screen and (max-width:575px){
+
+  footer{
+  margin: 4rem 0 2rem;
+  padding-top: 0.7rem;
+  border-top: 1px solid #eaecf0;
+  justify-content: space-between;
+  align-items: left;
+  }
+
+}
+
+
   
