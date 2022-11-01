@@ -1,7 +1,7 @@
 import './Footer.css'
 
 import I4G from "../images/I4G.png";
-import zuriInternship from "../images/Zuri.Internship_Logo.png";
+import zuriInternship from "../images/Zuri.Internship_Logo.svg";
 
 export default function Footer() {
   return (

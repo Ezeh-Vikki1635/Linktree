@@ -55,10 +55,13 @@ export default function Link() {
       </a>
 
       <div className="social-icons">
-        <img src={slack} alt="slack icon" />
+        <a href="https://hng9.slack.com/" target="blank">
+        <img src={slack} alt="" />
+        </a>
         <a href="https://github.com/Ezeh-Vikki1635/linktree" target="blank">
           <img src={github} alt="" />
         </a>
+        
       </div>
     </div>
   );

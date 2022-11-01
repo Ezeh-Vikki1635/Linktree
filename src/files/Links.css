@@ -1,6 +1,4 @@
-#links_section a {
-    text-decoration: none;
-  }
+
   
   .links_container {
     color: #101828;
@@ -12,6 +10,9 @@
   
   .links_container:hover {
     background: #bdbfc3;
+  }
+  #links_section a {
+    text-decoration: none;
   }
   
   .links_container span {
@@ -27,8 +28,13 @@
   .social-icons {
     margin-top: 2rem;
   }
+  .social-icons img {
+    width: 100px;
+  }
   
   .social-icons img:last-child {
     margin-left: 1rem;
+  
   }
+  
   
