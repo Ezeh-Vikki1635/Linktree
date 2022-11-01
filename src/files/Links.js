@@ -28,7 +28,7 @@ export default function Link() {
 
       <a
         id="book__python"
-        href="https://books.zuri.team/python-for-beginners?ref_id=Lina"
+        href="https://books.zuri.team/python-for-beginners?ref_id=Ezeh Victoria"
         target="blank"
       >
         <div className="links_container">
