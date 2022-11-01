@@ -1,6 +1,4 @@
 import "./Links.css";
-
-
 import github from "../images/github.png";
 import slack from "../images/slack.png";
 
