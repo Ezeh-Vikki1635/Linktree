@@ -1,7 +1,5 @@
 
 import './Profile.css'
-
-
 import Vikki from "../images/Vikki.jpg";
 
 export default function Profile() {

@@ -36,16 +36,3 @@ code {
     
 }
 
-.link-tree-footer, .link-tree-footer .link-tree-footer-content {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  gap: initial;
-  width: 100%;
-}
-.link-tree-footer {
-  justify-content: normal;
-  margin-top: 24px;
-  min-height: 160px;
-}

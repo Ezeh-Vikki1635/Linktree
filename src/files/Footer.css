@@ -1,17 +1,15 @@
 #footer {
     margin: 4rem 0 2rem;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding-top: 0.7rem;
     border-top: 1px solid #eaecf0;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
   }
   
-  #footer img {
-    object-fit: contain;
-    padding-top: 0.4rem;
-  }
+  
+
   
   #footer p {
     color: #667085;
