@@ -20,7 +20,7 @@ export default function Link() {
       <a id="books" href="http://books.zuri.team" target="blank">
         <div className="links_container">
           <span>Zuri Books</span>
-          <p>Find books about design and coding</p>
+          
         </div>
       </a>
 
@@ -37,7 +37,7 @@ export default function Link() {
       <a id="pitch" href="https://background.zuri.team" target="blank">
         <div className="links_container">
           <span>Background Check for Coders</span>
-          <p>Learn more about the Frontend Development</p>
+          
         </div>
       </a>
 
@@ -48,7 +48,17 @@ export default function Link() {
       >
         <div className="links_container">
           <span>Design Books</span>
-          <p>Learn Design with this Books of Intellect Filled with Amazing Web designs</p>
+          
+        </div>
+      </a>
+      <a
+        id="contact"
+        href="/contact"
+        target="blank"
+      >
+        <div className="links_container">
+          <span>Contact Me</span>
+          
         </div>
       </a>
 
