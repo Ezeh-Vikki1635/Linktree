@@ -1,0 +1,102 @@
+*{
+    font-family:Inter,sans-serif;
+}
+
+main{
+        margin-left: 25%;
+}
+#Contact{
+
+    color: #101828;
+    font-size: 36px;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    text-align: start;
+    
+    
+}
+.para{
+    color: #475467;
+    font-size: 20px;
+    line-height: 30px;
+    line-height: 124%;
+    padding-bottom: 30px;
+    text-align: start;
+}
+    
+.name{
+       display: flex;
+       gap: 10px;
+       justify-content: space-between;
+       
+}
+.label{
+        text-align: left;
+        font-size: 14px;
+        color: 1px solid #344054;
+        
+}
+    #message{
+        height: 132px;
+}
+    
+input, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #D0D5DD;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        border-radius: 8px;
+        height: 44px;
+
+}
+input[type=submit] {
+        background-color: #1570EF;
+        color: white;
+        padding: 12px 20px;
+        cursor: pointer;
+        border-radius: 2px;
+}
+input[type=checkbox] {
+        width: 20px;
+        height: 20px;
+        top: 2px;
+        border-radius: 6px;
+        color: #D0D5DD;
+        padding-right: 0;
+        
+}
+    
+.form {
+        float: left;
+        margin-top: 6px;
+        
+        
+    }
+    #label{
+        color: #475467;
+        font-size: 16px;
+        padding-left: 10px;
+        
+        
+    }
+    
+    #btn__submit{
+        margin-top: 30px;
+    }
+    
+      
+    .style:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+      @media screen and (max-width: 600px) {
+        .column, input[type=submit] {
+        margin-top: 0;
+        width: 100%;
+        
+        }
+    }
+    

@@ -1,24 +1,25 @@
 import './Contact.css';
+import './Footer.js';
 import {Route} from 'react-router-dom'
 
 export default function Contact () {
   return ( 
     <div>
       <main>
-      <div class="style">
+      <div className="style">
         <div>
-          <h2>
-            <span class="conta">Contact Me </span>
+          <h2 id='Contact'>
+            Contact Me
           </h2>
-          <p class="para">
+          <p className="para">
             Hi there, contact me to ask me about anything you have in
             mind.
           </p>
         </div>
-        <div class="form">
+        <div className="form">
           <form action="">
-            <div class="name">
-              <div class="label">
+            <div className="name">
+              <div className="label">
                 <label for="first name">First name</label>
                 <input
                   type="text"
@@ -30,8 +31,8 @@ export default function Contact () {
                   required
                 />
               </div>
-              <div>
-                <label for="last name">First name</label>
+              <div className='label'>
+                <label for="last name">Last name</label>
                 <input
                   type="text"
                   id="last_name"
@@ -44,7 +45,7 @@ export default function Contact () {
               </div>
             </div>
 
-            <div>
+            <div className='label'>
               <label for="email">Email</label>
               <input
                 type="email"
@@ -55,21 +56,26 @@ export default function Contact () {
               />
             </div>
 
-            <div>
+            <div className='label'>
               <label for="message">Message</label>
               <textarea
                 id="message"
                 name="message"
                 placeholder="Send me a message and I'll reply you as soon as possible..."
-                // style="height: 170px"
                 maxlength="150"
                 required
               ></textarea>
             </div>
             <div>
-              <p>
-                You agree to providing your data to name who may contact you.
-              </p>
+              <input
+              type="checkbox"
+              id="paragraph"
+              name="paragraph"
+              value="paragraph"
+              
+            />
+            <label for="paragraph" id='label'>You agree to providing your data to name who may contact you.</label>
+                
             </div>
             <div>
               <input type="submit" id="btn__submit" value="Send message" />
