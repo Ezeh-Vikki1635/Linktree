@@ -33,8 +33,14 @@ main{
 .label{
         text-align: left;
         font-size: 14px;
-        color: 1px solid #344054;
+        color: #344054;
+        font-weight: 700;
         
+        
+}
+::placeholder{
+    color: #667085;
+    font-size: 16px;
 }
     #message{
         height: 132px;
@@ -91,14 +97,7 @@ input[type=checkbox] {
         display: table;
         clear: both;
     }
-    @media screen and (max-width: 600px) {
-        .column, input[type=submit] {
-        margin-top: 0;
-        width: 100%;
-        
-        }
-        
-    }
+    
     @media screen and (max-width: 475px) {
         .column, input[type=submit] {
         margin-top: 0;
@@ -125,31 +124,31 @@ input[type=checkbox] {
         }
         main{
             margin: 5%;
-    }
-    input, textarea {
-        width: 100%;
-        padding: 12px;
-        border: 1px solid #D0D5DD;
-        margin-top: 6px;
-        margin-bottom: 16px;
-        border-radius: 8px;
-        height: 44px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #D0D5DD;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            border-radius: 8px;
+            height: 44px;
 
-    }
-    input[type=submit] {
-        background-color: #1570EF;
-        color: white;
-        padding: 12px 20px;
-        cursor: pointer;
-        border-radius: 8px;
-    }
-    input[type=checkbox] {
-        width: 20px;
-        height: 20px;
-        top: 2px;
-        border-radius: 6px;
-        color: #D0D5DD;
-        padding-right: 0;
+        }
+        input[type=submit] {
+            background-color: #1570EF;
+            color: white;
+            padding: 12px 20px;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+        input[type=checkbox] {
+            width: 20px;
+            height: 20px;
+            top: 2px;
+            border-radius: 6px;
+            color: #D0D5DD;
+            padding-right: 0;
         
     }
 }
