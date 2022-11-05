@@ -92,11 +92,14 @@ input[type=checkbox] {
         clear: both;
     }
     
-      @media screen and (max-width: 600px) {
+      @media screen and (max-width: 375px) {
         .column, input[type=submit] {
         margin-top: 0;
         width: 100%;
         
+        }
+        .name{
+            display: block;
         }
     }
     
