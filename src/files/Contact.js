@@ -20,11 +20,11 @@ export default function Contact () {
           <form action="">
             <div className="name">
               <div className="label">
-                <label for="first name">First name</label>
+                <label for="first_name">First name</label>
                 <input
                   type="text"
-                  id="First_name"
-                  name="last name"
+                  id="first_name"
+                  name="first_name"
                   placeholder="Enter your first name"
                   maxlength="10"
                   minlength="4"
@@ -32,7 +32,7 @@ export default function Contact () {
                 />
               </div>
               <div className='label'>
-                <label for="last name">Last name</label>
+                <label for="last_name">Last name</label>
                 <input
                   type="text"
                   id="last_name"
@@ -72,10 +72,8 @@ export default function Contact () {
               id="paragraph"
               name="paragraph"
               value="paragraph"
-              
             />
             <label for="paragraph" id='label'>You agree to providing your data to name who may contact you.</label>
-                
             </div>
             <div>
               <input type="submit" id="btn__submit" value="Send message" />
