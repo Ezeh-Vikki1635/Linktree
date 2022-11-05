@@ -1,9 +1,10 @@
+import './Contact.css';
 import {Route} from 'react-router-dom'
 
-export default function Contact() {
-    return (  
-        
-    <main>
+export default function Contact () {
+  return ( 
+    <div>
+      <main>
       <div class="style">
         <div>
           <h2>
@@ -60,7 +61,7 @@ export default function Contact() {
                 id="message"
                 name="message"
                 placeholder="Send me a message and I'll reply you as soon as possible..."
-                style="height: 170px"
+                // style="height: 170px"
                 maxlength="150"
                 required
               ></textarea>
@@ -77,6 +78,7 @@ export default function Contact() {
         </div>
       </div>
     </main>
-    );
+    </div>
+   );
 }
  
