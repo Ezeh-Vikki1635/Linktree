@@ -2,19 +2,24 @@
 import Profile from './files/Profile'
 import Links from './files/Links';
 import Footer from './files/Footer';
-
+import {BrowserRouter,Router, Route, Routes} from 'react-router-dom';
+import Contact from './files/Contact';
 
 function App() {
   return (
-    <div className="App">
+    <BrowserRouter>
+     
       
-      <Profile/>
-      <Links/>
-      <Footer/>
-      
-                  
-                    
-    </div>
+      <Routes>
+        {/* <Route path="/" element={<Profile />} > */}
+          <Route index element={<Links />} />
+          
+          <Route path="/contact" element={<Contact />} />
+          
+        {/* </Route> */}
+      </Routes>
+  <Footer/>
+    </BrowserRouter>
 
   );
 }

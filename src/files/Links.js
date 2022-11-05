@@ -1,10 +1,13 @@
 import "./Links.css";
 import github from "../images/github.png";
 import slack from "../images/slack.png";
+import {Link} from 'react-router-dom'
+import Profile from "./Profile";
 
-export default function Link() {
+export default function Links() {
   return (
     <div id="links_section">
+      <Profile/>
       <a href="https://twitter.com/EzehVictoria1" target="blank">
         <div className="links_container">
           <span>Twitter Link</span>
@@ -51,16 +54,16 @@ export default function Link() {
           
         </div>
       </a>
-      <a
+      <Link
         id="contact"
-        href="/contact"
+        to="/contact"
         target="blank"
       >
         <div className="links_container">
           <span>Contact Me</span>
           
         </div>
-      </a>
+      </Link>
 
       <div className="social-icons">
         <a href="https://hng9.slack.com/" target="blank">
