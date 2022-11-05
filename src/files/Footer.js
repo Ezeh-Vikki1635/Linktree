@@ -8,7 +8,7 @@ export default function Footer() {
     <footer id='footer'>
       <img src={zuriInternship} alt='zuri internship logo'/>
       <p>HNG internship 9 Frontend Task</p>
-      <img src={I4G} alt='Ingressive for good logo'/>
+      <img className='foimage' src={I4G} alt='Ingressive for good logo'/>
     </footer>
   )
 }
