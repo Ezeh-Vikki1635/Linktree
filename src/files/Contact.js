@@ -61,7 +61,7 @@ export default function Contact () {
               <textarea
                 id="message"
                 name="message"
-                placeholder="Send me a message and I'll reply you as soon as possible..."
+                placeholder="Send me a message and I'll reply you as soon as possible."
                 maxlength="150"
                 required
               ></textarea>
