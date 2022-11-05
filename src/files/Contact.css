@@ -91,8 +91,15 @@ input[type=checkbox] {
         display: table;
         clear: both;
     }
-    
-      @media screen and (max-width: 375px) {
+    @media screen and (max-width: 600px) {
+        .column, input[type=submit] {
+        margin-top: 0;
+        width: 100%;
+        
+        }
+        
+    }
+    @media screen and (max-width: 475px) {
         .column, input[type=submit] {
         margin-top: 0;
         width: 100%;
@@ -101,5 +108,23 @@ input[type=checkbox] {
         .name{
             display: block;
         }
+        main{
+            margin: 5%;
+    }
+    }
+    
+    
+    @media screen and (max-width: 375px) {
+        .column, input[type=submit] {
+        margin-top: 0;
+        width: 100%;
+        
+        }
+        .name{
+            display: block;
+        }
+        main{
+            margin: 5%;
+    }
     }
     
