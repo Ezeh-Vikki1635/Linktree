@@ -1,8 +1,8 @@
 
-import Profile from './files/Profile'
+
 import Links from './files/Links';
 import Footer from './files/Footer';
-import {BrowserRouter,Router, Route, Routes} from 'react-router-dom';
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import Contact from './files/Contact';
 
 function App() {

@@ -1,6 +1,6 @@
 import './Contact.css';
 import './Footer.js';
-import {Route} from 'react-router-dom'
+
 
 export default function Contact () {
   return ( 
